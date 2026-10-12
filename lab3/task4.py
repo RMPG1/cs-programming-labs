@@ -1,0 +1,6 @@
+data = input()
+num, ot, kuda, time, cost = data.split(';')
+print('Поезд:', num)
+print('Маршрут:', ot + '-' + kuda)
+print('Отправление:', time)
+print('Цена:', cost)
